@@ -1,0 +1,90 @@
+Adding Initial Commit / Push to GIT HUB
+
+git fetch
+
+git pull
+
+git remote ad origin githubpath
+git branch --set-upstream-to=origin/main main
+
+git push --set-upstream origin main/master
+
+
+===================================
+
+Adding Modifying file to GIT HUB 
+
+git add .
+
+git status
+
+git commit -m "Any message"
+
+git push origin main
+
+=============================
+git config -l   // List of Username and password 
+
+
+
+
+
+
+git credential-osxkeychain erase host=github.com protocol=https  
+
+
+git config --global user.email "abhishekpanda9040@yahoo.com"
+git config --global user.name "abhishekpandaOfficial"
+
+git init
+
+git add .
+
+git commit -m "Message"
+
+git branch -M main
+
+git remote add origin https://github.com/abhishekpandaOfficial/TaskManagerUI.git
+
+git push -u origin master
+
+==================
+
+or push an existing repository from the command line
+
+git remote add origin https://github.com/abhishekpandaOfficial/TaskManagerUI.git
+
+git branch -M main
+
+git push -u origin main
+
+============
+ssh-keygen -t ed25519 -C "abhishekpanda9040@yahoo.com"
+
+Generating public/private ed25519 key pair
+
+SSH KEY Folder :
+/Users/abhishekpanda/
+
+====
+eval "$(ssh-agent -s)"
+Agent pid 6756
+
+==========
+touch ~/.ssh/config
+open ~/.ssh/config
+
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+  
+  ssh-add ~/.ssh/id_ed25519 
+  
+  
+  
+  =====
+  
+  
+  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
